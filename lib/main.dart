@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:fluttercse1/src/views/public/activity6.dart';
+import 'package:fluttercse1/src/views/public/activity.dart';
+
 
 
 
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Activity6(),
+      home: Activity(),
     );
   }
 }

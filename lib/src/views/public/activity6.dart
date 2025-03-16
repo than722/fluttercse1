@@ -22,6 +22,8 @@ class Activity6 extends StatelessWidget {
 }
 
 class Dashboard extends StatelessWidget {
+  const Dashboard({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -57,6 +59,8 @@ class Dashboard extends StatelessWidget {
 }
 
 class ImageContainer extends StatelessWidget {
+  const ImageContainer({super.key});
+
   @override
   Widget build(BuildContext context) {
     return InkWell(
@@ -117,6 +121,8 @@ class ImageContainer extends StatelessWidget {
 
 // New container for "Text #2" in the Dashboard
 class ImageContainerText2 extends StatelessWidget {
+  const ImageContainerText2({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -170,6 +176,8 @@ class ImageContainerText2 extends StatelessWidget {
 
 
 class TextPage extends StatelessWidget {
+  const TextPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -221,6 +229,8 @@ class TextPage extends StatelessWidget {
 }
 
 class NewItemPage extends StatelessWidget {
+  const NewItemPage({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
